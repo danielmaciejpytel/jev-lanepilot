@@ -1,12 +1,14 @@
 # Jev LanePilot
 
+**English** · [Polski](README.pl.md)
+
 **Small routing decisions. One focused coding worker.**
 
 ![Bounded routing for coding agents](assets/overview.svg)
 
 An unofficial, dependency-free Node.js integration that asks TypeSafe Jev to recommend a worker lane for **Codex** or **Claude Code**. The host agent launches the worker and reviews its results. Your main chat keeps its selected model.
 
-> Private review draft. This package has not been published or granted an open-source license. See [provenance and licensing](docs/PROVENANCE.md).
+Licensed under the [MIT License](LICENSE). See [provenance and licensing](docs/PROVENANCE.md).
 
 ## Why this implementation?
 
