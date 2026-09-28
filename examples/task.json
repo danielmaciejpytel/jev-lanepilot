@@ -1,0 +1,7 @@
+{
+  "task": "Fix a bounded bug in one module",
+  "evidence": "The affected function and expected behavior are known.",
+  "failed_attempts": 0,
+  "security_sensitive": false,
+  "architectural_uncertainty": false
+}

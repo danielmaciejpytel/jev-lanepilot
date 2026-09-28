@@ -1,0 +1,3 @@
+## Optional Jev LanePilot worker routing
+
+For nontrivial coding tasks where a worker model choice can change the next action, consult the installed `jev-lanepilot` skill. This is an opt-in instruction. Keep the parent chat on its selected model. Use the returned lane only through Codex's native agent tool; the CLI does not launch workers. Skip obvious small edits and ordinary questions. Never send secrets, entire conversations, or unrelated files to Jev. Review the diff and relevant checks after the worker finishes. Routing does not grant permission to commit, push, deploy, publish, or delete.

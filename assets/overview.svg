@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="580" viewBox="0 0 1200 580" role="img" aria-labelledby="title desc"><title id="title">Jev LanePilot</title><desc id="desc">Host-led routing: a small Jev decision selects a single worker; the parent reviews evidence.</desc><rect width="100%" height="100%" fill="#0b1220"/><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 Z" fill="#7c94b8"/></marker></defs>
+<text x="48" y="66" fill="#f8fafc" font-family="Arial, sans-serif" font-size="44" font-weight="700">Jev LanePilot</text>
+<text x="48" y="104" fill="#a8bad2" font-family="Arial, sans-serif" font-size="23" font-weight="400">Small routing decisions. One focused coding worker.</text>
+<rect x="48" y="160" width="310" height="172" rx="18" fill="#142238" stroke="#5eead4" stroke-width="1.5"/>
+<text x="70" y="194" fill="#5eead4" font-family="Arial, sans-serif" font-size="23" font-weight="700">01 / YOUR HOST</text>
+<text x="70" y="228" fill="#e5edf8" font-family="Arial, sans-serif" font-size="18" font-weight="400">Codex or Claude Code</text>
+<text x="70" y="254" fill="#e5edf8" font-family="Arial, sans-serif" font-size="18" font-weight="400">Summarizes the task</text>
+<text x="70" y="280" fill="#e5edf8" font-family="Arial, sans-serif" font-size="18" font-weight="400">Keeps the main model</text>
+<rect x="445" y="160" width="310" height="172" rx="18" fill="#142238" stroke="#5eead4" stroke-width="1.5"/>
+<text x="467" y="194" fill="#5eead4" font-family="Arial, sans-serif" font-size="23" font-weight="700">02 / BOUNDED ROUTE</text>
+<text x="467" y="228" fill="#e5edf8" font-family="Arial, sans-serif" font-size="18" font-weight="400">Local policy or Jev</text>
+<text x="467" y="254" fill="#e5edf8" font-family="Arial, sans-serif" font-size="18" font-weight="400">A worker lane or UNKNOWN</text>
+<text x="467" y="280" fill="#e5edf8" font-family="Arial, sans-serif" font-size="18" font-weight="400">Explicit fallback on failure</text>
+<rect x="842" y="160" width="310" height="172" rx="18" fill="#142238" stroke="#5eead4" stroke-width="1.5"/>
+<text x="864" y="194" fill="#5eead4" font-family="Arial, sans-serif" font-size="23" font-weight="700">03 / ONE WORKER</text>
+<text x="864" y="228" fill="#e5edf8" font-family="Arial, sans-serif" font-size="18" font-weight="400">Host launches the profile</text>
+<text x="864" y="254" fill="#e5edf8" font-family="Arial, sans-serif" font-size="18" font-weight="400">Worker completes its scope</text>
+<text x="864" y="280" fill="#e5edf8" font-family="Arial, sans-serif" font-size="18" font-weight="400">No recursive delegation</text>
+<path d="M360,244 L433,244" stroke="#7c94b8" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M757,244 L830,244" stroke="#7c94b8" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="48" y="390" width="1104" height="112" rx="18" fill="#142238" stroke="#a5b4fc" stroke-width="1.5"/>
+<text x="70" y="424" fill="#a5b4fc" font-family="Arial, sans-serif" font-size="23" font-weight="700">EVIDENCE BEFORE COMPLETION</text>
+<text x="70" y="458" fill="#e5edf8" font-family="Arial, sans-serif" font-size="18" font-weight="400">Parent reviews the actual diff and relevant checks. Routing confidence is not proof.</text>
+<text x="48" y="549" fill="#a8bad2" font-family="Arial, sans-serif" font-size="18" font-weight="400">No automatic parent-model switch. No guaranteed savings. Normal host permissions apply.</text>
+</svg>
