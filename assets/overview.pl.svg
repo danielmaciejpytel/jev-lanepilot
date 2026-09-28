@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="580" viewBox="0 0 1200 580" role="img" aria-labelledby="title desc"><title id="title">Jev LanePilot</title><desc id="desc">Aplikacja dobiera jednego wykonawcę z pomocą Jev; agent prowadzący sprawdza wyniki.</desc><rect width="100%" height="100%" fill="#0b1220"/><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 Z" fill="#7c94b8"/></marker></defs>
+<text x="48" y="66" fill="#f8fafc" font-family="Arial, sans-serif" font-size="44" font-weight="700">Jev LanePilot</text>
+<text x="48" y="104" fill="#a8bad2" font-family="Arial, sans-serif" font-size="21" font-weight="400">Małe decyzje o doborze modelu. Jeden wykonawca skupiony na zadaniu.</text>
+<rect x="48" y="160" width="310" height="172" rx="18" fill="#142238" stroke="#5eead4" stroke-width="1.5"/>
+<text x="70" y="194" fill="#5eead4" font-family="Arial, sans-serif" font-size="21" font-weight="700">01 / TWOJA APLIKACJA</text>
+<text x="70" y="228" fill="#e5edf8" font-family="Arial, sans-serif" font-size="18" font-weight="400">Codex lub Claude Code</text>
+<text x="70" y="254" fill="#e5edf8" font-family="Arial, sans-serif" font-size="18" font-weight="400">Przygotowuje opis zadania</text>
+<text x="70" y="280" fill="#e5edf8" font-family="Arial, sans-serif" font-size="18" font-weight="400">Zachowuje główny model</text>
+<rect x="445" y="160" width="310" height="172" rx="18" fill="#142238" stroke="#5eead4" stroke-width="1.5"/>
+<text x="467" y="194" fill="#5eead4" font-family="Arial, sans-serif" font-size="21" font-weight="700">02 / DOBÓR PROFILU</text>
+<text x="467" y="228" fill="#e5edf8" font-family="Arial, sans-serif" font-size="18" font-weight="400">Lokalne reguły lub Jev</text>
+<text x="467" y="254" fill="#e5edf8" font-family="Arial, sans-serif" font-size="18" font-weight="400">Profil albo UNKNOWN</text>
+<text x="467" y="280" fill="#e5edf8" font-family="Arial, sans-serif" font-size="18" font-weight="400">Jawny wybór awaryjny</text>
+<rect x="842" y="160" width="310" height="172" rx="18" fill="#142238" stroke="#5eead4" stroke-width="1.5"/>
+<text x="864" y="194" fill="#5eead4" font-family="Arial, sans-serif" font-size="21" font-weight="700">03 / JEDEN WYKONAWCA</text>
+<text x="864" y="228" fill="#e5edf8" font-family="Arial, sans-serif" font-size="18" font-weight="400">Aplikacja uruchamia agenta</text>
+<text x="864" y="254" fill="#e5edf8" font-family="Arial, sans-serif" font-size="18" font-weight="400">Agent realizuje swój zakres</text>
+<text x="864" y="280" fill="#e5edf8" font-family="Arial, sans-serif" font-size="18" font-weight="400">Bez dalszej delegacji</text>
+<path d="M360,244 L433,244" stroke="#7c94b8" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M757,244 L830,244" stroke="#7c94b8" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="48" y="390" width="1104" height="112" rx="18" fill="#142238" stroke="#a5b4fc" stroke-width="1.5"/>
+<text x="70" y="424" fill="#a5b4fc" font-family="Arial, sans-serif" font-size="21" font-weight="700">WERYFIKACJA PRZED ZAKOŃCZENIEM</text>
+<text x="70" y="458" fill="#e5edf8" font-family="Arial, sans-serif" font-size="18" font-weight="400">Agent prowadzący sprawdza diff i wyniki kontroli. Pewność Jev nie zastępuje dowodów.</text>
+<text x="48" y="549" fill="#a8bad2" font-family="Arial, sans-serif" font-size="18" font-weight="400">Główny model pozostaje bez zmian. Brak gwarancji oszczędności. Obowiązują zwykłe uprawnienia.</text>
+</svg>

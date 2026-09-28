@@ -4,7 +4,7 @@
 
 **Małe decyzje o doborze modelu. Jeden wykonawca skupiony na zadaniu.**
 
-![Dobór wykonawcy zadania programistycznego](assets/overview.svg)
+![Dobór wykonawcy zadania programistycznego](assets/overview.pl.svg)
 
 Nieoficjalna integracja w Node.js, bez dodatkowych zależności, która pyta TypeSafe Jev o zalecany profil wykonawcy dla **Codexa** lub **Claude Code**. Agent prowadzący uruchamia wykonawcę i sprawdza jego wyniki. Główny czat zachowuje wybrany model.
 
@@ -108,7 +108,7 @@ node src/route.mjs --host claude < examples/task.json
 
 ## Jak to działa?
 
-![Decyzje routera i weryfikacja](assets/decision-flow.svg)
+![Decyzje routera i weryfikacja](assets/decision-flow.pl.svg)
 
 1. Agent prowadzący pomija drobne zmiany i zbiera minimalny opis zadania.
 2. Jawne flagi bezpieczeństwa lub niepewności architektonicznej albo dwie nieudane próby powodują lokalną eskalację bez wywołania API. Flagi podaje wywołujący — nie jest to automatyczny wykrywacz zagrożeń.
@@ -139,4 +139,4 @@ Oficjalny skill `typesafe-ai` uczy projektowania aplikacji z TypeSafe. LanePilot
 
 [API TypeSafe](https://docs.typesafe.ai/api) · [Oficjalny skill](https://github.com/typesafe-ai/skills) · [Wskazówki społeczności](https://github.com/aaddrick/building-with-typesafe-jev) · [Agenci Codexa](https://learn.chatgpt.com/docs/agent-configuration/subagents) · [Agenci Claude Code](https://code.claude.com/docs/en/sub-agents)
 
-Projekt nie jest powiązany z TypeSafe, OpenAI ani Anthropic i nie jest przez te firmy rekomendowany. Nazwy produktów identyfikują wyłącznie zgodne usługi. Diagramy i dokumenty pomocnicze pozostają w języku angielskim.
+Projekt nie jest powiązany z TypeSafe, OpenAI ani Anthropic i nie jest przez te firmy rekomendowany. Nazwy produktów identyfikują wyłącznie zgodne usługi. Dokumenty pomocnicze pozostają w języku angielskim.
